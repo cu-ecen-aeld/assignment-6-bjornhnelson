@@ -25,7 +25,7 @@ inherit update-rc.d
 
 
 # TODO: customize these as necessary for any libraries you need for your application
-#TARGET_LDFLAGS += "-pthread -lrt"
+TARGET_LDFLAGS += "-pthread -lrt"
 
 do_configure () {
 	:
